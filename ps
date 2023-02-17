@@ -1,0 +1,5 @@
+New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Edge -Name 3rdparty
+New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Edge\3rdparty -Name extensions
+New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\ -Name dikiaagfielfbnbbopidjjagldjopbpa
+New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\dikiaagfielfbnbbopidjjagldjopbpa -Name policy
+New-ItemProperty -Path HKLM:\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\dikiaagfielfbnbbopidjjagldjopbpa\policy -Name AnalyticsToken -PropertyType String -Value 611d0aad8d86148ef3b87fc3
